@@ -19,6 +19,8 @@ public class SpringbootprojectApplication {
 	public static void main(String[] args) throws IOException {
 		SpringApplication.run(SpringbootprojectApplication.class, args);
 		
+		//Hibernate configuration
+		
 		Configuration cfg = new Configuration();
 		cfg.configure("com/test/springboottest/hibernate.cfg.xml");
 
